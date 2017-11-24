@@ -1,0 +1,137 @@
+
+/*********************/
+/***HEADER STYLING***/
+/*******************/
+
+html{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.container{
+  display:flex;
+}
+
+#header{
+  width:100%;
+  position:fixed;
+  height:85px;
+  border-bottom: 1px solid seashell;
+  border-top:2px solid seashell;
+  background-color: black;
+}
+
+#logo{
+  padding-left: 10px;
+  height:50px;
+  width:auto;
+}
+
+.menu{
+  display:block;
+  text-align: right;
+  flex-grow: 1;
+}
+
+.menu li{
+  list-style: none;
+  padding: 5px 45px;
+  display:inline-block;
+  border:1px solid white;
+  border-radius: 5px;
+  background-color:black;
+  font-size: 24px;
+}
+
+.menu a{
+  color:seashell;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/**********************/
+/***MISSION STYLING***/
+/********************/
+
+#mission{
+  padding-top:70px;
+  height:700px;
+  background-image: url("../images/mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mission .cta{
+  background-color: black;
+  width:100%;
+}
+
+.cta{
+  margin-top: 300px;
+}
+
+/***********************/
+/***FEATURES STYLING***/
+/*********************/
+
+#featured{
+  width:1200px;
+  height:700px;
+  margin:auto;
+}
+
+.teabox img{
+  height:200px;
+  margin:10px;
+  flex-shrink: 2;
+  border-radius: 10px;
+}
+
+/*img :hover{
+  opacity:0.9;
+}*/
+
+.teabox{
+  display:inline-block;
+  width:300px;
+  align-content:center;
+  margin:auto;
+}
+
+/***********************/
+/***LOCATION STYLING***/
+/*********************/
+
+#locations{
+  background-image: url("../images/locations_bg.jpg");
+  width:1200px;
+  height:500px;
+  background-position: center;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.box{
+  border-radius: 10px;
+  margin-top: 100px;
+  width:300px;
+  height:300px;
+  display:inline-block;
+  background-color: black;
+}
+
+
+/*******************************/
+/***FOOTER & CONTACT STYLING***/
+/*****************************/
+
+footer{
+  text-align: left;
+}
